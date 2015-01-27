@@ -22,13 +22,17 @@ SSH in:
 
 Run ThinkUp tests:
 
+```
    $ cd /var/www/default/thinkup/
-   $ php all_tests.php
+   $ php tests/all_tests.php
+```
 
 Debug test output:
 
+```
    $ cd /var/www/default/thinkup/
    $ TEST_DEBUG=1 php tests/TestToDebug.php > ../debug.html
+```
 
 In your host machine's browser, visit http://192.168.56.101/debug.html
 
