@@ -41,6 +41,11 @@ See ThinkUp in your browser:
 * http://thinkup.dev/mythinkup/
 * thinkupuser@thinkup.dev / nice2bnice
 
+Note: If thinkup.dev doesn't resolve, make sure the following line is in your host computer's /etc/hosts file:
+
+    192.168.56.101 default thinkup.dev www.thinkup.dev
+
+
 Adminer database admin:
 
 * http://192.168.56.101/adminer/
