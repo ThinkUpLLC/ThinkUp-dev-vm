@@ -1,8 +1,8 @@
 ---
 vagrantfile-local:
     vm:
-        box: puphpet/ubuntu1204-x64
-        box_url: puphpet/ubuntu1204-x64
+        box: puphpet/ubuntu1404-x64
+        box_url: puphpet/ubuntu1404-x64
         hostname: ''
         memory: '512'
         cpus: '1'
@@ -10,7 +10,7 @@ vagrantfile-local:
         network:
             private_network: 192.168.56.101
             forwarded_port:
-                8i6PoPdCR2Tk:
+                HudUeq2JVeh1:
                     host: '5767'
                     guest: '22'
         post_up_message: ''
@@ -32,7 +32,7 @@ vagrantfile-local:
                     - '--hiera_config /vagrant/puphpet/puppet/hiera.yaml'
                     - '--parser future'
         synced_folder:
-            LugHJb5RU1Aq:
+            o2f0BOth3rQU:
                 owner: www-data
                 group: www-data
                 source: ./
@@ -88,7 +88,7 @@ apache:
     modules:
         - rewrite
     vhosts:
-        zacw0ofscc06:
+        ba1skasa8aiv:
             servername: thinkup.dev
             serveraliases:
                 - www.thinkup.dev
@@ -97,7 +97,7 @@ apache:
             setenv:
                 - 'APP_ENV dev'
             directories:
-                pk0du7lxlbuw:
+                zmfwjphg8iw4:
                     provider: directory
                     path: /var/www/docroot
                     options:
@@ -125,7 +125,7 @@ nginx:
         proxy_buffers: '4 256k'
     upstreams: {  }
     vhosts:
-        i1lanythy4rn:
+        gs0a0dnhssak:
             proxy: ''
             server_name: awesome.dev
             server_aliases:
@@ -198,7 +198,7 @@ drush:
 ruby:
     install: '1'
     versions:
-        cEitezRJGoq5:
+        t1ii17U4NZDe:
             version: ''
 nodejs:
     install: '0'
@@ -207,7 +207,7 @@ python:
     install: '1'
     packages: {  }
     versions:
-        W9BfLKHzYc2p:
+        gLMtVQN4Hg2L:
             version: ''
 mysql:
     install: '1'
@@ -215,7 +215,7 @@ mysql:
     root_password: nice2bnice
     adminer: '1'
     databases:
-        yifewnNtihZ1:
+        bWIMX70S6ztf:
             grant:
                 - ALL
             name: thinkup_web
@@ -223,7 +223,7 @@ mysql:
             user: thinkup
             password: nice2bnice
             sql_file: ''
-        vx0HiqGljBS6:
+        P6WDOf06mU7W:
             grant:
                 - ALL
             name: thinkup_tests
