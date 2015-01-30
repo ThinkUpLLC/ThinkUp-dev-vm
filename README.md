@@ -55,6 +55,12 @@ MailCatcher
 
 * http://192.168.56.101:1080/
 
+Destroy virtual machine:
+
+    $ vagrant destroy
+
+Note:  This does not delete setup files or the contents of the default directory.
+
 ## Fork and modify
 
 This Vagrant virtual machine was built with [PuPHPet](http://puphpet.com). To modify it for your own purposes, drag and drop puphpet/config.yaml onto (http://puphpet.com) and regenerate.
