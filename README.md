@@ -24,7 +24,7 @@ Run ThinkUp tests:
 
 ```
    $ cd /var/www/default/thinkup/
-   $ php tests/all_tests.php
+   $ SKIP_UPGRADE_TESTS=1 php tests/all_tests.php
 ```
 
 Debug test output:
